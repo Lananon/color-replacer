@@ -12,3 +12,5 @@ The script will print its result to stdout, so to immediately apply it to the fi
 ```
 main.py /path/to/color/file /path/to/json/file > /path/to/color/file
 ```
+
+you can test this out by taking a file using the catppuccin-macchiato color scheme and running it in the script together with ```macchiato-to-mocha.json```
