@@ -6,11 +6,11 @@ extremely simple python program meant to quickly and easily translate config fil
 
 clone the repo, cd into it, then do
 ```
-main.py /path/to/color/file /path/to/json/file
+python main.py /path/to/color/file /path/to/json/file
 ```
 The script will print its result to stdout, so to immediately apply it to the file do
 ```
-main.py /path/to/color/file /path/to/json/file > /path/to/color/file
+python main.py /path/to/color/file /path/to/json/file > /path/to/color/file
 ```
 
 you can test this out by taking a file using the catppuccin-macchiato color scheme and running it in the script together with ```macchiato-to-mocha.json```
